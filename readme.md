@@ -100,3 +100,17 @@ $ git push [variable name] :[branch name]
 ## Pull
 
 $ git pull [Repository Link]
+
+
+## Stash
+
+$ git stash save
+
+
+$ git stash pop
+
+
+$ git stash list
+
+
+$ git stash drop
