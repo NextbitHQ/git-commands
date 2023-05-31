@@ -101,6 +101,9 @@ $ git push [variable name] :[branch name]
 
 $ git pull [Repository Link]
 
+## Remote
+
+$ git remote add [variable name] [Remote Server Link]
 
 ## Stash
 
