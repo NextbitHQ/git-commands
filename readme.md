@@ -117,3 +117,6 @@ $ git stash list
 
 
 $ git stash drop
+
+
+git reset --hard
