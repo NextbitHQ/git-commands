@@ -1,6 +1,6 @@
 # Git Commands 
 
-## Configuration
+Configuration:
 
 `git config`
 
@@ -8,112 +8,124 @@ For all projects:
 
 ```
 git config –global user.name "[name]"
+```
+```
 git config –global user.email "[email address]"
 ```
 
 For a specific project:
 
-```$ git config –local user.name "[name]"
+```
+$ git config –local user.name "[name]"
+```
+```
 git config –local user.email "[email address]"
 ```
 
-## Initialize
+Initialize:
 
-`git init`
+```
+git init
+```
 
-## Clone
+Clone:
 
-`git clone [url]` 
+```
+git clone [url]
+```
 
-**Adding files to the staging area**
+Adding files to the staging area:
 
- `git add .`
- `git add [file name]`
+```
+git add .
+```
+```
+git add [file name]
+```
 
-## Commit
+Commit:
 
-`git commit -m "[commit message]"`
+```
+git commit -m "[commit message]"
+```
 
-## Status
+Status:
 
+```
 git status
+```
 
+Remove:
 
-## Remove
-
+```
 git rm [file]
+```
+Reset:
 
-A file is removed from the working directory using this command.
-
-## Reset
-
-`git reset [file]`
-
+```
+git reset [file]
+```
+```
 git reset [commit]
-
+```
+```
 git reset –hard [commit]
-
-
-## Log
-
+```
+Log:
+```
 git log
+```
+Brunch:
 
-
-## Brunch
-
-
+```
 git branch - Shows all the branches of the repository
-
-
+```
+```
 git branch [branch name] - Creates a new branch 
-
-
+```
+```
 git branch -d [branch name] - Deletes the branch 
-
-
-## Checkout
-
+```
+Checkout: 
+```
 git checkout [branch name] - To switch to a specific branch 
-
-
+```
+```
 git checkout -b [branch name] - Creates a new branch and switches there
-
-
-## Merge
-
+```
+Merge:
+```
 git merge [branch name]
-
-
-
-## Push
-
+```
+Push:
+```
 git push [variable name] master
-
+```
 git push [variable name] [branch]
-
+```
 git push –all [variable name]
-
-
+```
+```
 git push [variable name] :[branch name]
-
-
-## Pull
-
+```
+Pull:
+```
 git pull [Repository Link]
-
-## Remote
-
+```
+Remote:
+```
 git remote add [variable name] [Remote Server Link]
-
-## Stash
-
+```
+Stash:
+```
 git stash save
-
-
+```
+```
 git stash pop
-
-
+```
+```
 git stash list
-
-
+```
+```
 git stash drop
+```
