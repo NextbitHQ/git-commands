@@ -62,21 +62,21 @@ git log
 ## Brunch
 
 
-git branch
+git branch - Shows all the branches of the repository
 
 
-git branch [branch name]
+git branch [branch name] - Creates a new branch 
 
 
-git branch -d [branch name]
+git branch -d [branch name] - Deletes the branch 
 
 
 ## Checkout
 
-git checkout [branch name]
+git checkout [branch name] - To switch to a specific branch 
 
 
-git checkout -b [branch name]
+git checkout -b [branch name] - Creates a new branch and switches there
 
 
 ## Merge
